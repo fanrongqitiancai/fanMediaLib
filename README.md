@@ -1,4 +1,4 @@
-# fanMediaLib
+﻿# fanMediaLib
 
 **ObscuraX — Your Local Personal Content Library**
 
@@ -56,36 +56,36 @@ Your original TXT files remain intact. Reading progress and annotations are save
 
 ## Screenshots
 
-<!-- Replace the placeholders below with actual ObscuraX screenshots. -->
+ ![Media Library](image/首页.png) 
 
 ### Media Library
 
-<!-- ![Media Library](screenshots/media-library.png) -->
+![Media Library](image/片子.png)
 
 Browse your personal collections in a cover-based gallery.
 
 ### Reading Experience
 
-<!-- ![Media Reader](screenshots/media-reader.png) -->
+![Media Library](image/片子.png)
 
 Read text and browse images together in a clean reading layout.
 
 ### Article Editor
 
-<!-- ![Article Editor](screenshots/article-editor.png) -->
+![Article Editor](image/文章页面.png) 
 
 Write and organize your personal articles.
 
 ### Novel Reader
 
-<!-- ![Novel Reader](screenshots/novel-reader.png) -->
+![Novel Reader](image/小说页面.png)
 
 Read novels chapter by chapter and keep your annotations.
 
 ## Supported Platforms
 
 | Platform | Availability |
-|---|---|
+| --- | --- |
 | Windows 11 | Primary platform. Installation packages are available. |
 | macOS | Successfully built and packaged on Apple Silicon (Mac M2, macOS 13.7.8). Intel Mac compatibility has not been separately verified. |
 | Linux | Not currently available. |
@@ -180,10 +180,10 @@ Your content stays in its original folder structure and can be accessed using Fi
 Each collection uses one folder.
 
 | File | Purpose |
-|---|---|
+| --- | --- |
 | `cover.jpg` | Collection cover |
 | `content.md` | Text and image content |
-| `meta.json` | Collection information |
+| `meta.json` | Meta information |
 | Other image files | Collection images |
 | Video files | Videos associated with the collection |
 
@@ -220,7 +220,7 @@ TXT files must use UTF-8 encoding without BOM.
 ObscuraX keeps library content separate from application settings and temporary files.
 
 | Data | Storage location |
-|---|---|
+| --- | --- |
 | Images, videos, and collection content | Your selected library folder |
 | Personal articles | `文章/` inside your library |
 | Novels and reading annotations | `book/` or `小说/` inside your library |
