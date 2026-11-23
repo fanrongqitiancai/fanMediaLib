@@ -56,11 +56,9 @@ Your original TXT files remain intact. Reading progress and annotations are save
 
 ## Screenshots
 
- ![Media Library](image/首页.png) 
-
 ### Media Library
 
-![Media Library](image/片子.png)
+ ![Media Library](image/首页.png) 
 
 Browse your personal collections in a cover-based gallery.
 
